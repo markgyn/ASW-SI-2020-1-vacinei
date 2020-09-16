@@ -11,7 +11,7 @@ Trabalho em Grupo (TG) da Disciplina Arquitetura de Software
 
 # Ideia Geral do Projeto
 
-Gerencia, notificação e informações sobre as vacinas recentes/futuras do usuário.
+Website para gerenciamento, notificação e informações sobre as vacinas recentes e futuras do usuário.
 
 # Objetivo
 
