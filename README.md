@@ -8,6 +8,7 @@ Trabalho em Grupo (TG) da Disciplina Arquitetura de Software
 * DOMINIC ROCHA DE PAULO
 * MARCOS VINICIUS VIEIRA DA SILVA
 * BRUNO BRAZ SILVEIRA
+* FELIPE GONÇALVES FERREIRA
 
 # Ideia Geral do Projeto
 
