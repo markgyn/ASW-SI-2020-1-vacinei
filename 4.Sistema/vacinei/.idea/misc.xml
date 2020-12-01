@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE misc [
+<!ENTITY java "JavaScriptSettings">
+<!ENTITY opcao "languageLevel">
+<!ENTITY valor "ES6">
+]>
 <project version="4">
-  <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
+  <component name=&java>
+    <option name=&opcao value=valor />
   </component>
 </project>
