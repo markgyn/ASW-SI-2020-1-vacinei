@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="portuguese">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/perfil_cadastro.css">
+    <title>Perfil a ser Cadastrado</title>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+<nav>
+    <ul>
+        <h1 class="title_profile">Escolha um Perfil</h1>
+        <a href="../php/register_patient.php"> <li><span>Paciente</span></li> </a>
+        <a href="../php/register_agente.php"><li><span>Agente de saúde</span></li> </a>
+        <a href="../../index.php"><button class="btn-dark"> Voltar </button></a>
+        <a href="../../index.php" onclick=" signOut();">Sair</a>
+        <script>
+            function signOut() {
+                var auth2 = gapi.auth2.getAuthInstance();
+                auth2.signOut().then(function () {
+                    console.log('User signed out.');
+                });
+            }
+        </script>
+<!--        <li><span>Services</span></li>-->
+<!--        <li><span>Contact</span></li>-->
+    </ul>
+</nav>
+</body>
+</html>
